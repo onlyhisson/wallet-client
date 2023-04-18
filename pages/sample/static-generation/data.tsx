@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.scss";
 
 export default function StaticGenerationData1({ posts }: any) {
   // 브라우저에서 출력됨
