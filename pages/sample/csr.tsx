@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/Button";
 
 type TPost = {
   id: number;
@@ -37,6 +38,7 @@ export default function CSR() {
         </div>
         <div>{post.title}</div>
         <div>{post.content}</div>
+        <Button />
       </main>
     </>
   );
